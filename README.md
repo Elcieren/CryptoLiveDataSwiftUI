@@ -1,13 +1,19 @@
-<img width="280" alt="Ekran Resmi 2024-11-03 01 58 58" src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0">
+<div style="display: flex; align-items: center;">
+    <img width="280" alt="Ekran Resmi 2024-11-03 01 58 58" src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0" style="margin-right: 20px;">
+    <div>
+        <strong>Async-Await:</strong><br>
+        Servis katmanında <code>downloadCurrenciesAsync</code> ve <code>downloadCurrenciesContinuation</code> fonksiyonları async-await yapısıyla veri çekme işlevini sağlar. Bu yapı sayesinde veri çekme işlemleri daha okunaklı hale gelir.<br><br>
 
-**Async-Await:**  
-Servis katmanında `downloadCurrenciesAsync` ve `downloadCurrenciesContinuation` fonksiyonları async-await yapısıyla veri çekme işlevini sağlar. Bu yapı sayesinde veri çekme işlemleri daha okunaklı hale gelir.
+   
+   <strong>Continuation:</strong><br>     
+  <code>downloadCurrenciesContinuation</code> fonksiyonu, eski <code>completion handler</code> yapısındaki <code>downloadCurrencies</code> fonksiyonunu async-await ile uyumlu hale getirir. <code>withCheckedThrowingContinuation</code> ile asenkron süreçler, eski yapılarla uyumlu hale gelir.<br><br>
 
-**Continuation:**  
-`downloadCurrenciesContinuation` fonksiyonu, eski `completion handler` yapısındaki `downloadCurrencies` fonksiyonunu async-await ile uyumlu hale getirir. `withCheckedThrowingContinuation` ile asenkron süreçler, eski yapılarla uyumlu hale gelir.
+   <strong>Actors Kullanımı:</strong><br>
+   <code>@MainActor</code> ile işaretlenmiş <code>CryptoListViewModel</code> sınıfı, Swift’in actor modeline uygundur. Bu model, <code>cryptoList</code> gibi verilerin thread-safe bir şekilde güncellenmesini sağlar ve veri yarış koşullarını önler.
+    </div>
+</div>
 
-**Actors Kullanımı:**  
-`@MainActor` ile işaretlenmiş `CryptoListViewModel` sınıfı, Swift’in actor modeline uygundur. Bu model, `cryptoList` gibi verilerin thread-safe bir şekilde güncellenmesini sağlar ve veri yarış koşullarını önler.
+
 
 
  <details>
