@@ -130,16 +130,3 @@
     ```
   </details> 
 
-<details>
-    <summary><h2>Uygulama Görselleri </h2></summary>
-    
-    
- <table style="width: 100%;">
-    <tr>
-        <td style="text-align: center; width: 16.67%;">
-            <h4 style="font-size: 14px;">Oyun Basladiktan sonra</h4>
-            <img src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0" style="width: 100%; height: auto;">
-        </td>
-    </tr>
-</table>
-  </details> 
