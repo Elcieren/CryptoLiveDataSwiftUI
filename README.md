@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img width="280" alt="Ekran Resmi 2024-11-03 01 58 58" src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0">
+      <img width="350" alt="Ekran Resmi 2024-11-03 01 58 58" src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0">
     </td>
     <td>
       <strong>Async-Await:</strong><br>
