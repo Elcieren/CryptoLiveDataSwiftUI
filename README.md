@@ -1,8 +1,14 @@
-## SwiftMapKit Uygulama Kullanımı
 <img width="280" alt="Ekran Resmi 2024-11-03 01 58 58" src="https://github.com/user-attachments/assets/678ee4a4-04f5-4125-a971-be9a92f50ee0">
-Async-Await: Servis katmanında downloadCurrenciesAsync ve downloadCurrenciesContinuation fonksiyonları async-await yapısıyla veri çekme işlevini sağlar. Bu yapı sayesinde veri çekme işlemleri daha okunaklı hale gelir.
-Continuation: downloadCurrenciesContinuation fonksiyonu, eski completion handler yapısındaki downloadCurrencies fonksiyonunu async-await ile uyumlu hale getirir. withCheckedThrowingContinuation ile asenkron süreçler, eski yapılarla uyumlu hale gelir.
-Actors Kullanımı: @MainActor ile işaretlenmiş CryptoListViewModel sınıfı, Swift’in actor modeline uygundur. Bu model, cryptoList gibi verilerin thread-safe bir şekilde güncellenmesini sağlar ve veri yarış koşullarını önler.
+
+**Async-Await:**  
+Servis katmanında `downloadCurrenciesAsync` ve `downloadCurrenciesContinuation` fonksiyonları async-await yapısıyla veri çekme işlevini sağlar. Bu yapı sayesinde veri çekme işlemleri daha okunaklı hale gelir.
+
+**Continuation:**  
+`downloadCurrenciesContinuation` fonksiyonu, eski `completion handler` yapısındaki `downloadCurrencies` fonksiyonunu async-await ile uyumlu hale getirir. `withCheckedThrowingContinuation` ile asenkron süreçler, eski yapılarla uyumlu hale gelir.
+
+**Actors Kullanımı:**  
+`@MainActor` ile işaretlenmiş `CryptoListViewModel` sınıfı, Swift’in actor modeline uygundur. Bu model, `cryptoList` gibi verilerin thread-safe bir şekilde güncellenmesini sağlar ve veri yarış koşullarını önler.
+
 
  <details>
     <summary><h2>Uygulamanin Amacı</h2></summary>
